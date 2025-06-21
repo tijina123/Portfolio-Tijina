@@ -2,6 +2,7 @@ import { assets, workData } from "@/assets/assets";
 import Image from "next/image";
 import React from "react";
 import { motion } from "motion/react"
+import Link from "next/link";
 
 const Work = () => {
   return (
@@ -62,14 +63,17 @@ const Work = () => {
                 <h2 className="font-semibold">{project.title}</h2>
                 <p className="text-sm text-gray-700">{project.description}</p>
               </div>
-              <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                <Image src={assets.send_icon} alt="send icon" className="w-5" />
-              </div>
+             <Link href="https://cart7online.com">
+  <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+    <Image src={assets.send_icon} alt="send icon" className="w-5" />
+  </div>
+</Link>
+
             </div>
           </motion.div>
         ))}
       </motion.div>
-      <motion.a 
+      {/* <motion.a 
       
       initial = {{opacity: 0}}
     whileInView={{opacity: 1}}
@@ -78,7 +82,7 @@ const Work = () => {
       
       href="" className="w-max flex items-center justify-center gap-2 text-gray-700 rounded-full border border-gray-700  py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 ">
         Show more <Image src={assets.right_arrow_bold} alt="right arrow" className="w-4"/>
-      </motion.a>
+      </motion.a> */}
     </motion.div>
   );
 };

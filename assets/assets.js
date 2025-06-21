@@ -35,8 +35,17 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import tijina from './tijina.jpg';
+import tijinamariam from './tijinamariam.jpeg';
+import Tijina2 from './Tijina2.png';
+import Tijina_ from './Tijina_.png';
+import Elementor from './Elementor.png';
+import vercel from './vercel.png';
+import hostinger from './hostinger.png';
 
 export const assets = {
+    tijinamariam,
+    tijina,
     user_image,
     code_icon,
     code_icon_dark,
@@ -73,45 +82,52 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    Tijina2,
+    Tijina_,
+    Elementor,
+    vercel,
+    hostinger,
+    
+    
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
+        title: 'CART7',
         description: 'Web Design',
-        bgImage: '/work-1.png',
+        bgImage: '/cart7.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Food Delivery',
+        description: 'Frontend Development',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Hotel Booking',
+        description: 'Hotel Booking App Mern ', 
         bgImage: '/work-3.png',
     },
     {
         title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        description: 'WordPress',
         bgImage: '/work-4.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Frontend Development', description: 'I build responsive and modern web interfaces using HTML, CSS, Bootstrap, and Tailwind CSS. Skilled in creating pixel-perfect, mobile-friendly UIs.', link: '' },
+    { icon: assets.mobile_icon, title: ' Full Stack Development', description: 'Experienced in building complete web apps using the MERN stack. I manage everything from frontend interfaces to backend logic and databases using MongoDB.', link: '' },
+    { icon: assets.ui_icon, title: 'WordPress', description: 'Experienced in building dynamic websites using WordPress. I work with Elementor, WooCommerce, various plugins, and custom themes to create tailored solutions.', link: '' },
+    { icon: assets.graphics_icon, title: 'Hosting & Deployment', description: 'Experienced in deploying full-stack applications and managing hosting environments. Skilled with platforms like Hostinger, VPS servers, and Vercel.', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, React Js, Python' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Master of Computer Application' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 3 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.Elementor, assets.mongodb, assets.vercel, assets.git, assets.hostinger
 ];

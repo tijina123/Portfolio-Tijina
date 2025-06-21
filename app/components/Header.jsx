@@ -11,7 +11,7 @@ const Header = () => {
         whileInView = {{scale: 1}}
         transition = {{duration: 0.8, type: 'spring', stiffness: 100}}
         >
-            <Image src={assets.profile_img} alt='' className='rounded-full w-32'/>
+            <Image src={assets.tijina} alt='' className='rounded-full w-32'/>
             
         </motion.div>
 
@@ -24,12 +24,12 @@ const Header = () => {
          initial = {{y: -30, opacity: 0}}
         whileInView = {{y: 0, opacity: 1}}
         transition = {{duration: 0.8, delay: 0.5}}
-        className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>Python Developer based in Ernakulam</motion.h1>
+        className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>Full Stack Developer Based in Pathanamthitta</motion.h1>
         <motion.p 
          initial = {{ opacity: 0}}
         whileInView = {{opacity: 1}}
         transition = {{duration: 0.6, delay: 0.7}}
-        className='max-w-2xl mx-auto font-Ovo'>I am a Python developer from Pathanamthitta,Kerala with 1 year experience in company Cloud7 Branding Studio</motion.p>
+        className='max-w-2xl mx-auto font-Ovo'>I am a Full Stack Developer from Pathanamthitta,Kerala with 1 year experience in company Cloud7 Branding Studio</motion.p>
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
             <motion.a 
              initial = {{y: 30, opacity: 0}}

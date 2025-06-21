@@ -31,7 +31,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
       {/* Main Navbar */}
       <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow:sm dark:bg-darkTheme dark:shadow-white/20" :""}`}>
         <a href="#top">
-          <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt="" className='w-28 cursor-pointer mr-14' />
+          <Image src={isDarkMode ? assets.Tijina2 : assets.Tijina_} alt="" className='w-28 cursor-pointer mr-14' />
         </a>
 
         {/* Desktop Menu */}
@@ -45,11 +45,11 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
 
         {/* Right Side Buttons */}
         <div className='flex items-center gap-4'>
-          <button onClick={()=>setIsDarkMode(prev => !prev)}>
+          {/* <button onClick={()=>setIsDarkMode(prev => !prev)}>
             <Image src={ isDarkMode ? assets.sun_icon : assets.moon_icon} alt='' className='w-6 lg:w-8 cursor-pointer' />
-          </button>
+          </button> */}
 
-          <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo dark:border-white/50'>
+          <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo dark:border-black/50'>
             Contact <Image src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon} alt="" className='w-3' />
           </a>
 

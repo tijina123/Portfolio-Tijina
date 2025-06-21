@@ -42,7 +42,7 @@ const About = ({isDarkMode}) => {
     transition={{duration: 0.6}}
     >
           <Image
-            src={assets.user_image}
+            src={assets.tijinamariam}
             alt='user'
             className='w-full h-auto rounded-3xl object-cover'
           />
