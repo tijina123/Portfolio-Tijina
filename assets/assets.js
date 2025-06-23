@@ -101,24 +101,24 @@ export const workData = [
     {
         title: 'Food Delivery',
         description: 'Frontend Development',
-        bgImage: '/work-2.png',
+        bgImage: '/food.png',
     },
     {
         title: 'Hotel Booking',
         description: 'Hotel Booking App Mern ', 
-        bgImage: '/work-3.png',
+        bgImage: '/booking.png',
     },
     {
-        title: 'UI/UX designing',
+        title: 'Trust',
         description: 'WordPress',
-        bgImage: '/work-4.png',
+        bgImage: '/metro.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Frontend Development', description: 'I build responsive and modern web interfaces using HTML, CSS, Bootstrap, and Tailwind CSS. Skilled in creating pixel-perfect, mobile-friendly UIs.', link: '' },
-    { icon: assets.mobile_icon, title: ' Full Stack Development', description: 'Experienced in building complete web apps using the MERN stack. I manage everything from frontend interfaces to backend logic and databases using MongoDB.', link: '' },
-    { icon: assets.ui_icon, title: 'WordPress', description: 'Experienced in building dynamic websites using WordPress. I work with Elementor, WooCommerce, various plugins, and custom themes to create tailored solutions.', link: '' },
+    { icon: assets.web_icon, title: 'Frontend Development', description: 'I build responsive and modern web interfaces using HTML, CSS, Bootstrap, and Tailwind CSS. Skilled in creating pixel-perfect, mobile-friendly UIs.', link: 'https://cart7online.com' },
+    { icon: assets.mobile_icon, title: 'Full Stack Development', description: 'Experienced in building complete web apps using the MERN stack. I manage everything from frontend interfaces to backend logic and databases using MongoDB.', link: '' },
+    { icon: assets.ui_icon, title: 'WordPress', description: 'Experienced in building dynamic websites using WordPress. I work with Elementor, WooCommerce, various plugins, and custom themes to create tailored solutions.', link: 'https://metropolitancancercarecentre.com/' },
     { icon: assets.graphics_icon, title: 'Hosting & Deployment', description: 'Experienced in deploying full-stack applications and managing hosting environments. Skilled with platforms like Hostinger, VPS servers, and Vercel.', link: '' },
 ]
 
