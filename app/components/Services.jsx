@@ -26,7 +26,7 @@ const Services = () => {
     whileInView={{opacity : 1}}
     transition={{duration: 0.5, delay: 0.7}}
       
-      >I am a Python Developer from Pathanamthitta with 1 year experience in Cloud7 Branding Studio.</motion.p>
+      >I am a Full Stack Developer from Doha, Qatar with 1 year experience in Cloud7 Branding Studio.</motion.p>
       <motion.div className='grid sm:grid-cols-1 md:grid-cols-4 gap-6 my-10'
        initial = {{opacity : 0}}
     whileInView={{opacity : 1}}
