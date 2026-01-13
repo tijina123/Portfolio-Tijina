@@ -42,6 +42,8 @@ import Tijina_ from './Tijina_.png';
 import Elementor from './Elementor.png';
 import vercel from './vercel.png';
 import hostinger from './hostinger.png';
+import github from './github.png';
+import chatbot from './chatbot.png';
 
 export const assets = {
     tijinamariam,
@@ -88,26 +90,36 @@ export const assets = {
     Elementor,
     vercel,
     hostinger,
+    github,
+    chatbot
+
+
     
     
 };
 
 export const workData = [
-    {
-        title: 'CART7',
-        description: 'Web Design',
-        bgImage: '/cart7.png',
-        link: 'https://cart7online.com'
+    // {
+    //     title: 'CART7',
+    //     description: 'Web Design',
+    //     bgImage: '/cart7.png',
+    //     link: 'https://cart7online.com'
+    // },
+      {
+        title: 'Qatar Chatbot',
+        description: 'Using gemini AI API',
+        bgImage: '/chatbot.png',
+        link: 'https://chatbot-frontend-iota-pink.vercel.app/'
     },
     {
         title: 'Food Delivery',
         description: 'Frontend Development',
         bgImage: '/food.png',
-        link: 'https://food-delivery-phi.vercel.app/'
+        link: 'https://food-delivery-frontend-psi-plum.vercel.app//'
     },
     {
         title: 'Zeal It',
-        description: 'Manpower Agency ', 
+        description: 'Frontend Development', 
         bgImage: '/Zeal.png',
         link: 'https://zeal-it-client.vercel.app/'
     },
@@ -133,5 +145,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.Elementor, assets.mongodb, assets.vercel, assets.git, assets.hostinger, assets.firebase, 
+    assets.vscode, assets.Elementor, assets.mongodb, assets.vercel, assets.git, assets.hostinger, assets.firebase, assets.github
 ];
