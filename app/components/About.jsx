@@ -57,7 +57,7 @@ const About = ({isDarkMode}) => {
 
           {/* Paragraph */}
           <p className='mb-10 font-Ovo text-gray-700 leading-relaxed'>
-            I am a Full Stack Developer with 3 years of professional experience in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.
+            I am a Full Stack Developer with 2 years of professional experience in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.
           </p>
 
           {/* Info Cards */}

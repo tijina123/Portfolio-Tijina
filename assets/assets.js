@@ -127,11 +127,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, React Js, Python' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Node.js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Master of Computer Application' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 3 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.Elementor, assets.mongodb, assets.vercel, assets.git, assets.hostinger
+    assets.vscode, assets.Elementor, assets.mongodb, assets.vercel, assets.git, assets.hostinger, assets.firebase, 
 ];
